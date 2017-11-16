@@ -26,7 +26,7 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install clang; fi
 
 install:
-  - bash ./.travis/install.sh
+  - sudo bash ./.travis/install.sh
 
 script:
   - bash ./.travis/run.sh

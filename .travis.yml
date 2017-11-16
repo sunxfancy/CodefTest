@@ -30,4 +30,4 @@ install:
   - sudo bash ./.travis/install.sh
 
 script:
-  - bash ./.travis/run.sh
+  - sudo bash ./.travis/run.sh

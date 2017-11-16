@@ -2,7 +2,10 @@
 *.bc
 .fuse*
 *.sublime-*
+.vscode/
+.idea/
 .clang_complete
+__pycache__/
 bin/
 build/
 build-doc/

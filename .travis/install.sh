@@ -19,5 +19,5 @@ if [[ "$(uname -s)" == 'Darwin' ]]; then
 fi
 
 pip install conan # It install conan too
-pip install codef
+pip install codefactory
 conan user sunxfancy
